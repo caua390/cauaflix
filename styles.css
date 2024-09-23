@@ -1,0 +1,60 @@
+body {
+    color: darkred;
+    background: darkgrey;
+    margin: 2px;
+    font-family: "Sofadi One", system-ui;
+    margin-bottom: 80px;
+    }
+
+    header{
+        border-bottom: solid 2px blueviolet;
+        padding: 22px;
+        font-size: 35px;
+        color: blueviolet;
+    }
+
+.chamada{
+    background: whitesmoke;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+   }
+
+   .chamada-texto {
+    margin-right:  6%;
+   }
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.categoria-viedos{
+    display: flex;
+    overflow-x: auto;
+    gap: 18px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 18px;
+    margin-top: 45px;
+}
+
+.categoria-viedos img {
+     opacity: 0.5;
+     height: 180px;
+}
+
+.categoria-viedos img {
+    opacity: 1.0;
+    border: 2px solid blueviolet;
+}
+
+.categoria h2 {
+    color: blueviolet;
+}
